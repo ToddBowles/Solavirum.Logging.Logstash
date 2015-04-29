@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Solavirum.Logging.Logstash</id>
+        <version>$version$</version>
+        <authors>Todd Bowles</authors>
+        <owners>Todd Bowles</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A package that allows the deployment of Logstash along with a specific configuration.</description>
+        <releaseNotes></releaseNotes>
+        <copyright>Copyright Solavirum 2015</copyright>
+        <tags></tags>
+        <dependencies></dependencies>
+    </metadata>
+
+    <files>
+        <file src="configuration\*" target="configuration\" />
+        <file src="scripts\**" target="scripts\" />
+        <file src="tools\*" target="tools\" />
+        <file src="*.ps1" />
+        <file src="script-root-indicator" />
+    </files>
+
+</package>
